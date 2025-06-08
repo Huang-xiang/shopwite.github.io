@@ -1,0 +1,154 @@
+<style>
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+      color: #333;
+    }
+    header, footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+    h1, h2 {
+      margin: 0.5em 0;
+    }
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1em;
+      padding: 2em;
+    }
+    .product-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1em;
+      width: 200px;
+      text-align: center;
+    }
+    .product-card img {
+      width: 150%;             /* 滿版寬度 */
+      height: 400px;           /* 統一高度 */
+      object-fit: cover;       /* 依照比例裁切填滿 */
+    }
+    .price {
+      font-weight: bold;
+      color: #e91e63;
+    }
+    .add-to-cart {
+      background: #27ae60;
+      color: white;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 6px;
+      margin-top: 0.5em;
+      cursor: pointer;
+    }
+    .cart {
+      background: #fff;
+      padding: 1em 2em;
+      margin: 2em;
+      border-radius: 10px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .cart ul {
+      list-style: none;
+      padding: 0;
+    }
+    .cart li {
+      margin-bottom: 0.5em;
+    }
+    .checkout {
+      background: #e67e22;
+      color: white;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 6px;
+      margin-top: 1em;
+      cursor: pointer;
+    }
+    /*新聞牆、搜尋*/
+    header, main {
+      padding: 1rem;
+    }
+    .product-card, .news-wall, .search-container {
+      background: white;
+      margin: 1rem auto;
+      padding: 1rem;
+      border-radius: 8px;
+      max-width: 600px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .news-wall ul {
+      padding-left: 1rem;
+    }
+    .search-container input {
+      width: 200%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    /*換頁功能*/
+    body {
+      font-family: 'Noto Sans TC', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header, main {
+      padding: 1rem;
+    }
+    .product-card, .news-wall, .search-container {
+      background: white;
+      margin: 1rem auto;
+      padding: 1rem;
+      border-radius: 8px;
+      max-width: 600px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-decoration: none;
+      color: black;
+      display: block;
+    }
+    .product-card img {
+      width: 100%;   /* 滿版寬度 */
+      height: 350px;   /*照片高度*/
+      object-fit: cover;  /* 依照比例裁切填滿 */
+    }
+    .product-card h3 {
+      margin: 0.5rem 0;
+    }
+    .news-wall ul {
+      padding-left: 1rem;
+    }
+    .search-container input {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .pagination {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .pagination button {
+      padding: 0.5rem 1rem;
+      margin: 0 0.25rem;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .pagination button:disabled {
+      background-color: #ccc;
+      cursor: default;
+    }
+    
+
+</style>
